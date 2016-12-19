@@ -11,6 +11,20 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/theme.css" media="screen" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script> 
+    $(document).ready(function(){
+      $("#coursework").hover(function(){
+        $("#panel1").slideToggle("slow");
+      });
+      $("#research").hover(function(){
+        $("#panel2").slideToggle("slow");
+      });
+      $("#forfun").hover(function(){
+        $("#panel3").slideToggle("slow");
+      });
+    });
+  </script>
 </head>
 <body>
 
@@ -42,52 +56,42 @@
     <div class="row">
       <div class="col-md-4">
         <a href="">
-          <img src="ee16b.jpg" class="img-fluid" width="304" height="236">
+          <img src="ee16b.jpg" class="img-fluid" id="coursework" width="304" height="236">
         </a>
-        <h4 >COURSEWORK</h4>
+        <h4 id="panel1">COURSEWORK</h4>
       </div>
       <div class="col-md-4">
         <a href="">
-          <img src="ee16b.jpg" class="img-fluid" width="304" height="236">
+          <img src="ee16b.jpg" class="img-fluid" id="research" width="304" height="236">
         </a>
-        <h4>RESEARCH</h4></div>
+        <h4 id="panel2">RESEARCH</h4></div>
       <div class="col-md-4">
         <a href="">
-          <img src="ee16b.jpg" class="img-fluid" width="304" height="236">
+          <img src="ee16b.jpg" class="img-fluid" id="forfun" width="304" height="236">
         </a>
-        <h4>FOR FUN</h4></div>
+        <h4 id="panel3">FOR FUN</h4></div>
     </div>
 </div>
 
 <!-- Second Container -->
 <div class="container-fluid bg-2 text-center">
   <h3 class="margin"><strong>A B O U T</strong></h3>
-  <p>askdjkasld </p>
+  <p>tl</p>
 </div>
 
 <!-- Third Container (Grid) -->
 <div class="container-fluid bg-3 text-center">    
-  <h3 class="margin">Where To Find Me?</h3><br>
+  <h3 class="margin"><strong>C O N T A C T</strong></h3><br>
   <div class="row">
-    <div class="col-sm-4">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <img src="birds1.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+    <div class="col-sm-6">
+      <h4> Email: </h4>
+      <p>lorenjiang@berkeley.edu</p>
     </div>
-    <div class="col-sm-4"> 
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <img src="birds2.jpg" class="img-responsive margin" style="width:100%" alt="Image">
-    </div>
-    <div class="col-sm-4"> 
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <img src="birds3.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+    <div class="col-sm-6"> 
+      <h4> Social Media: </h4>
     </div>
   </div>
 </div>
-
-<!-- Footer -->
-<footer class="container-fluid bg-4 text-center">
-  <p></p> 
-</footer>
 
 </body>
 </html>

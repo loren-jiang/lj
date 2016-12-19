@@ -19,15 +19,11 @@ body {
   }
   .bg-3 { 
       background-color: #ffffff; /* White */
-      color: #555555;
-  }
-  .bg-4 { 
-      background-color: #2f2f2f; /* Black Gray */
-      color: #fff;
+      color: #474e5d;
   }
   .container-fluid {
       padding-top: 40px;
-      padding-bottom: 70px;
+      padding-bottom: 40px;
   }
   .navbar {
       padding-top: 15px;
@@ -49,4 +45,31 @@ body {
 .img-fluid {
   border-color: #474e5d; 
   border: 5px;
+}
+.col-md-4 {
+  padding: 20px;
+}
+#panel1 {
+    padding: 10px;
+    display: none;
+    width: 304px;
+    background-color: #F08080; 
+    color: white;
+    margin: auto;
+}
+#panel2 {
+    padding: 10px;
+    display: none;
+    width: 304px;
+    background-color: #F08080; 
+    color: white;
+    margin: auto;
+}
+#panel3 {
+    padding: 10px;
+    display: none;
+    width: 304px;
+    background-color: #F08080; 
+    color: white;
+    margin: auto;
 }
