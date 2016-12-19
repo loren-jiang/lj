@@ -46,10 +46,6 @@ body {
   .navbar a:hover, .navbar a:focus {
       color: #F08080 !important;
   }
-  .row {
-      margin-right: 90px;
-      margin-left: 90px;
-  }
 .img-fluid {
   border-color: #474e5d; 
   border: 5px;
