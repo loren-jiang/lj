@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Site settings
 title: Freelancer
 email: your-email@domain.com
@@ -60,3 +61,6 @@ credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a
 # Build settings
 markdown: kramdown
 permalink: pretty
+=======
+theme: jekyll-theme-cayman
+>>>>>>> af2884d2a29052366e035222929e612ffa1d8d73
