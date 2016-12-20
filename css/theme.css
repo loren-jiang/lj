@@ -4,10 +4,13 @@ body {
       line-height: 1.8;
       color: #f5f6f7;
   }
-  h4 {
-    font-size: 20px;
+  h3 {
+    font-size: 26px;
   }
-  p {font-size: 16px;}
+  h4 {
+    font-size: 22px;
+  }
+  p {font-size: 18px;}
   .margin {margin-bottom: 45px;}
   .bg-1 { 
       background-color: #ffffff; /* White */
@@ -16,6 +19,8 @@ body {
   .bg-2 { 
       background-color: #ffffff;
       color: #474e5d;
+      /*margin-right: 100px;
+      margin-left: 100px;*/
   }
   .bg-3 { 
       background-color: #ffffff; /* White */
@@ -23,7 +28,7 @@ body {
   }
   .container-fluid {
       padding-top: 40px;
-      padding-bottom: 40px;
+      padding-bottom: 90px;
   }
   .navbar {
       padding-top: 15px;
